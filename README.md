@@ -1,0 +1,2 @@
+# Fairsharer
+mini exercise
