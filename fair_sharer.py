@@ -31,6 +31,6 @@ def fair_sharer(values, num_iterations, share=0.1):
 
 
 fair_sharer([0, 1000, 800, 0], 1) # --> [100, 800, 900, 0]
-fair_sharer([0, 0, 0, 1000], 2) # --> [190, 0, 190, 720]
+fair_sharer([0, 1000, 800, 0], 2) #--> [100, 890, 720, 90]
 
 
