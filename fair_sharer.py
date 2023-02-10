@@ -29,8 +29,14 @@ def fair_sharer(values, num_iterations, share=0.1):
             
     return values
 
+#fair_sharer([0, 1000, 800, 0], 1) # --> [100, 800, 900, 0]
+#fair_sharer([0, 0, 0, 1000], 2) # --> [180, 0, 180, 640]
 
-fair_sharer([0, 1000, 800, 0], 1) # --> [100, 800, 900, 0]
-fair_sharer([0, 1000, 800, 0], 2) #--> [100, 890, 720, 90]
+if __name__ == "__main__":
+    values = [0, 1000, 1000, 1000]
+    num_iterations = 2
+    print(fair_sharer(values, num_iterations, share=0.1))
+
+
 
 
